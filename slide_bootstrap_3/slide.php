@@ -6,6 +6,21 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
 
+<script>
+ /* Definir uma altura padrão (fixa) para a classe .fixedHeightImg faz com que qualquer imagem que esteja
+         listada no carrosel, dentro de um div com a classe "item", permaneça com essa altura. Nesse exemplo a
+         altura máxima é de  500 pixels, que vai ser a altura da imagem, portanto, do carrosel inteiro.
+         Importante: Dentro do elemento de cada imagem a altura deve ser definida com um estilo inline */
+
+      .fixedHeightImg > img {
+          max-height: 300px;
+          margin-left: auto;
+          margin-right: auto;
+          width: auto;
+      }
+
+</script>
+
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
