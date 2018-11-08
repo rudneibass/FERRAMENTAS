@@ -9,7 +9,7 @@ header('Content-Type:' . "text/plain");
 #$con = null; // Conexão
 #$con = @pg_connect("host=$host user=$user password=$pswd dbname=$dbname") or die (pg_last_error($con));
 
-$con = mysqli_connect("localhost", "root", "", "crud") or print(mysql_error());
+$con = mysqli_connect("localhost", "root", "", "site_municipal") or print(mysql_error());
 
 if (!$con) {
     echo '[{"erro": "Não foi possível conectar ao banco"';
