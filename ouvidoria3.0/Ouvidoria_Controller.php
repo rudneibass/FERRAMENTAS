@@ -9,7 +9,7 @@ if ($_GET['act'] == "locate") {
     $table = $_POST['tbl'];
     $crud = new CRUD();
     
-    $con = mysqli_connect("localhost", "root", "", "site_municipal") or print(mysql_error());
+    $con = mysqli_connect("localhost", "root", "", "esic") or print(mysql_error());
 
     if (!$con) {
         echo '[{"erro": "Não foi possível conectar ao banco"';

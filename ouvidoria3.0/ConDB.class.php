@@ -8,7 +8,7 @@ header("Content-Type: text/html; charset=utf-8", true);
     private function setConn() {
         return
                 is_null(self::$pdo) ?
-                self::$pdo = new PDO('mysql:host=localhost;dbname=site_municipal', 'root','',$this->exeption): 
+                self::$pdo = new PDO('mysql:host=localhost;dbname=esic', 'root','',$this->exeption): 
                 #PDO('pgsql:host=localhost;dbname=banco', 'postgres','1t4rg3t',$this->exeption):
                 self::$pdo;
     }
