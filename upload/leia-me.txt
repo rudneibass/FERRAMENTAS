@@ -1,0 +1,2 @@
+está com o erro na hora de excluir quando seleciona
+varios arquivos um de cada vez.
